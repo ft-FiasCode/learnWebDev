@@ -1,4 +1,4 @@
-# LearnWebDev
+# learnWebDev
 
 **learnWebDev** is a complete **web development laboratory manual** covering HTML, CSS, Bootstrap, JavaScript, jQuery, PHP, MySQL, CodeIgniter, and WordPress. Perfect for university students following standard web development curricula.
 
@@ -71,10 +71,10 @@ Objective: Theme customization & plugins
 ## 📌 Usage
 ```bash
 # Clone repo
-git clone https://github.com/ft-FiasCode/LearnWebDev.git
+git clone https://github.com/ft-FiasCode/learnWebDev.git
 
 # Start XAMPP (Labs 10-14)
-# htdocs/LearnWebDev/lab10/
+# htdocs/learnWebDev/lab10/
 
 # Open in browser
-# http://localhost/LearnWebDev/lab10/
+# http://localhost/learnWebDev/lab10/
