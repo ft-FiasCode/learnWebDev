@@ -1,6 +1,6 @@
 # LearnWebDev
 
-**LearnWebDev** is a complete **Web Development Laboratory Manual** covering HTML, CSS, Bootstrap, JavaScript, jQuery, PHP, MySQL, CodeIgniter, and WordPress. Perfect for university students following standard web development curricula.
+**learnWebDev** is a complete **web development laboratory manual** covering HTML, CSS, Bootstrap, JavaScript, jQuery, PHP, MySQL, CodeIgniter, and WordPress. Perfect for university students following standard web development curricula.
 
 Hands-on labs take you from basic HTML pages to building dynamic websites and CMS deployment!
 
