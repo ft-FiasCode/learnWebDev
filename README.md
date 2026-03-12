@@ -26,16 +26,19 @@ Hands-on labs take you from **basic HTML pages to building dynamic websites and 
 
 # 📑 Table of Contents
 
-* [Overview](#-overview)
-* [Lab Objectives](#-lab-objectives)
-* [System Requirements](#-system-requirements)
-* [Lab Index](#-lab-index)
-* [Learning Outcomes](#-learning-outcomes)
-* [What I Learned](#-what-i-learned)
-* [How to Run Labs](#️-how-to-run-labs)
-* [Future Improvements](#-future-improvements)
-* [Author](#-author)
-* [License](#-license)
+* [📘 Overview](#-overview)
+* [🎯 Lab Objectives](#-lab-objectives)
+* [🛠 Technologies](#-technologies)
+* [🏗 Architecture](#-architecture)
+* [⚙️ Installation](#-installation)
+* [▶️ Usage](#️-how-to-run-labs)
+* [⭐ Key Features](#-key-features)
+* [📂 Project Structure](#-project-structure)
+* [📊 Results](#-results)
+* [📚 Lessons Learned](#-what-i-learned)
+* [🚀 Future Work](#-future-improvements)
+* [👨‍💻 Author](#-author)
+* [📜 License](#-license)
 
 ---
 
@@ -67,103 +70,177 @@ This laboratory manual helps students master:
 
 ---
 
-# 🛠️ System Requirements
+# 🛠 Technologies
 
-## Essential Tools
+**Frontend**
 
-* **IDE:** VS Code / Sublime Text
-* **Browser:** Chrome / Firefox (DevTools)
-* **Server:** XAMPP (Apache + MySQL + PHP)
-* **Tools:** Git, Bootstrap CDN, jQuery CDN
+* HTML5
+* CSS3
+* Bootstrap
+* JavaScript
+* jQuery
 
-## Lab-Specific Requirements
+**Backend**
 
-| Lab Group          | Requirements      |
-| ------------------ | ----------------- |
-| Frontend (1–9)     | VS Code + Browser |
-| Backend (10–12)    | XAMPP + MySQL     |
-| Frameworks (13–14) | XAMPP + Composer  |
+* PHP
 
----
+**Database**
 
-# 📂 Lab Index
+* MySQL
 
-## Frontend Fundamentals
+**Framework**
 
-**Lab 01: IDE & Basic HTML**
-Objective: Setup IDE and create first HTML page
+* CodeIgniter
 
-**Lab 02: HTML Tables, Forms & Media**
-Objective: Design structured content with tables and forms
+**CMS**
 
-**Lab 03: HTML Iframes**
-Objective: Embed external content
+* WordPress
 
-**Lab 04: CSS Text & Layout**
-Objective: Style text and create page layouts
+**Development Tools**
+
+* VS Code
+* Git
+* XAMPP
+* Chrome DevTools
 
 ---
 
-## Responsive Design
+# 🏗 Architecture
 
-**Lab 05: Bootstrap Layout**
-Objective: Build responsive layouts
+The project follows a layered web development architecture:
 
-**Lab 06: Professional Bootstrap Pages**
-Objective: Create responsive professional websites
+```
+User Browser
+      │
+      ▼
+Frontend (HTML / CSS / Bootstrap / JavaScript)
+      │
+      ▼
+Backend (PHP / CodeIgniter)
+      │
+      ▼
+Database (MySQL)
+      │
+      ▼
+CMS Integration (WordPress)
+```
 
-**Lab 07: Custom Bootstrap Templates**
-Objective: Modify and customize templates
+This architecture separates:
 
----
-
-## JavaScript & Interactivity
-
-**Lab 08: JavaScript Basics**
-Objective: Add interactivity to web pages
-
-**Lab 09: jQuery Effects**
-Objective: Enhance pages with jQuery animations
-
----
-
-## Backend Development
-
-**Lab 10: XAMPP & MySQL**
-Objective: Setup server and create databases
-
-**Lab 11: PHP CRUD Operations**
-Objective: Build Create / Read / Update / Delete operations
-
-**Lab 12: Dynamic PHP Website**
-Objective: Build a complete dynamic website
+* Presentation layer
+* Application logic
+* Data management
+* Content management system
 
 ---
 
-## Frameworks & CMS
+# ⚙️ Installation
 
-**Lab 13: CodeIgniter Framework**
-Objective: MVC development using CodeIgniter
+Clone the repository:
 
-**Lab 14: WordPress Development**
-Objective: Theme customization and plugin development
+```bash
+git clone https://github.com/ft-FiasCode/learnWebDev.git
+cd learnWebDev
+```
+
+Install and start the required environment:
+
+* Install **XAMPP**
+* Start **Apache** and **MySQL**
+* Place project folder inside `htdocs`
+
+Example path:
+
+```
+xampp/htdocs/learnWebDev
+```
 
 ---
 
-# 🎓 Learning Outcomes
+# ▶️ Usage
 
-Students completing this laboratory manual will be able to:
+## Frontend Labs (01–09)
 
-* Create **production-ready responsive websites**
-* Build **interactive web applications**
-* Develop **database-driven applications**
-* Implement **MVC architecture**
-* Deploy **WordPress themes and plugins**
-* Follow professional **development workflows**
+```bash
+cd learnWebDev/lab01-ide-html
+code .
+```
+
+Open **index.html** in your browser.
 
 ---
 
-# 🎓 What I Learned
+## Backend Labs (10–14)
+
+1. Start **Apache and MySQL** in XAMPP
+2. Copy lab folder into `htdocs`
+3. Import **database.sql** into phpMyAdmin
+4. Open in browser:
+
+```
+http://localhost/learnWebDev/lab10
+```
+
+---
+
+# ⭐ Key Features
+
+* Complete **14-lab structured curriculum**
+* Covers **frontend → backend → frameworks → CMS**
+* Responsive web design with **Bootstrap**
+* Interactive pages using **JavaScript & jQuery**
+* Database-driven applications with **PHP & MySQL**
+* MVC development with **CodeIgniter**
+* WordPress **theme and plugin customization**
+* Designed for **university laboratory courses**
+
+---
+
+# 📂 Project Structure
+
+```
+learnWebDev
+│
+├── lab01-ide-html
+├── lab02-html-forms
+├── lab03-iframes
+├── lab04-css-layout
+│
+├── lab05-bootstrap-layout
+├── lab06-bootstrap-pages
+├── lab07-bootstrap-templates
+│
+├── lab08-javascript-basics
+├── lab09-jquery-effects
+│
+├── lab10-xampp-mysql
+├── lab11-php-crud
+├── lab12-dynamic-php
+│
+├── lab13-codeigniter
+└── lab14-wordpress
+```
+
+Each folder contains **lab instructions, source code, and required assets**.
+
+---
+
+# 📊 Results
+
+After completing all labs, students can build:
+
+* Static HTML/CSS websites
+* Responsive Bootstrap layouts
+* Interactive JavaScript applications
+* Dynamic PHP database websites
+* MVC applications using CodeIgniter
+* CMS-based websites using WordPress
+
+This provides a **complete practical understanding of full-stack web development**.
+
+---
+
+# 📚 Lessons Learned
 
 While building this laboratory manual, I gained experience in:
 
@@ -175,54 +252,7 @@ While building this laboratory manual, I gained experience in:
 
 ---
 
-# ▶️ How to Run Labs
-
-## Frontend Labs (01–09)
-
-```bash
-# Clone repository
-git clone https://github.com/ft-FiasCode/learnWebDev.git
-
-# Open any lab folder
-cd learnWebDev/lab01-ide-html/
-
-# Open in VS Code
-code .
-```
-
-Then open **index.html** in your browser.
-
----
-
-## Backend Labs (10–14)
-
-```bash
-# 1. Install and start XAMPP (Apache + MySQL)
-
-# 2. Copy lab folder
-htdocs/learnWebDev/lab10/
-
-# 3. Import database
-database.sql using phpMyAdmin
-
-# 4. Open in browser
-http://localhost/learnWebDev/lab10/
-```
-
-Example project structure:
-
-```
-htdocs/learnWebDev/lab10/
-│
-├── index.php
-├── config.php
-├── database.sql
-└── assets/
-```
-
----
-
-# 🚀 Future Improvements
+# 🚀 Future Work
 
 * React / Vue.js frontend frameworks
 * REST API development
@@ -239,13 +269,15 @@ htdocs/learnWebDev/lab10/
 **ft-FiasCode**
 Web Developer
 
-[GitHub Profile](https://github.com/ft-FiasCode)
+GitHub: https://github.com/ft-FiasCode
 
 ---
 
 # 📜 License
 
-MIT License: ![License](https://img.shields.io/badge/License-MIT-green.svg)
+MIT License
+
+![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 This project is open-source and free to use, modify, and distribute.
 
