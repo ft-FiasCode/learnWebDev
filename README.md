@@ -29,11 +29,10 @@ Hands-on labs take you from basic HTML pages to building dynamic websites and CM
 * [System Requirements](#-system-requirements)
 * [Lab Index](#-lab-index)
 * [Learning Path](#-learning-path)
-* [Key Technologies](#-key-technologies)
-* [Project Structure](#-project-structure)
-* [How to Run Labs](#-how-to-run-labs)
 * [Learning Outcomes](#-learning-outcomes)
 * [What I Learned](#-what-i-learned)
+* [How to Run Labs](#-how-to-run-labs)
+* [Project Structure](#-project-structure)
 * [Future Improvements](#-future-improvements)
 * [Author](#-author)
 * [License](#-license)
@@ -137,7 +136,13 @@ flowchart TD
     F --> G[WordPress CMS]
     
     style A fill:#e1f5fe
+    style B fill:#f3e5f5
+    style C fill:#fff3e0
+    style D fill:#e8f5e8
+    style E fill:#e3f2fd
+    style F fill:#fce4ec
     style G fill:#c8e6c9
+
 
 ---
 
