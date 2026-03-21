@@ -1,0 +1,93 @@
+.top-bar {
+    background-color: #198754 !important;
+}
+
+.call-badge {
+    background-color: #f0cf6e;
+    color: #212529;
+    font-weight: bold;
+    padding: 8px 24px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+}
+
+.top-bar h1 {
+    font-size: 1.9rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.hero {
+    background-color: #f5de98;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.nav-link.active {
+    background-color: #198754 !important;
+    color: white !important;
+    border-radius: 50px;
+    padding: 8px 24px !important;
+}
+
+.article-card .card-text {
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.section-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+
+.program-block-pink {
+    background-color: #fdf4f4;
+}
+
+.program-block-blue {
+    background-color: #e6f7ff;
+}
+
+.program-image-container {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.program-image-container img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    display: block;
+}
+
+.enroll-btn {
+    background-color: #ebcb6e;
+    color: #212529 !important;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 14px 36px;
+    border-radius: 50px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.enroll-btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.program-text h3 {
+    font-size: 1.85rem;
+    font-weight: 700;
+}
+
+.program-text p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
