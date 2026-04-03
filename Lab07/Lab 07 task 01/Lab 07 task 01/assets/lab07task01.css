@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 60px;
+  transition: all 0.3s ease;
+  background-color: white;
+  color: black;
+}
+
+h1 {
+  font-size: 32px;
+  transition: font-size 0.2s ease;
+  transition: color 0.3s ease;
+}
+
+p {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 20px auto;
+  transition: color 0.3s ease;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+#btnDark { background-color: #333; color: rgb(244, 237, 237); }
+#btnLight { background-color: #eee; color: black; }
+#btnBlue { background-color: #7dcde8; color: rgb(74, 74, 241); }
