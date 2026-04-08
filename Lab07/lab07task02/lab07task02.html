@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>lab07task02</title>
+  <link rel="stylesheet" href="assets/lab07task02.css">
+</head>
+<body>
+
+<div class="form-box" id="formBox">
+  <h2>Student Registration</h2>
+
+  <label>Full Name</label>
+  <input type="text" id="name" placeholder="Enter your name" />
+  <div class="error" id="nameErr"></div>
+
+  <label>Email Address</label>
+  <input type="email" id="email" placeholder="Enter your email" />
+  <div class="error" id="emailErr"></div>
+
+  <label>Password</label>
+  <input type="password" id="password" placeholder="Min 8 characters" />
+  <div class="error" id="passErr"></div>
+
+  <label>Confirm Password</label>
+  <input type="password" id="confirmPass" placeholder="Re-enter password" />
+  <div class="error" id="confirmErr"></div>
+
+  <label>Age</label>
+  <input type="number" id="age" placeholder="Between 18 and 40" />
+  <div class="error" id="ageErr"></div>
+
+  <label>Gender</label>
+  <div class="radio-group">
+    <input type="radio" name="gender" value="male" /> Male &nbsp;
+    <input type="radio" name="gender" value="female" /> Female
+  </div>
+
+  <label>Department</label>
+  <select id="dept">
+    <option value="">-- Select Department --</option>
+    <option>Computer Science</option>
+    <option>Electrical Engineering</option>
+    <option>Software Engineering</option>
+    <option>Mechanical Engineering</option>
+  </select>
+
+  <button onclick="validate()">Register</button>
+
+  <div id="successMsg">Registration Successful!</div>
+</div>
+
+<script src="assets/lab07task02.js"></script>
+
+</body>
+</html>
