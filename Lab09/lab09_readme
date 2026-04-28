@@ -1,0 +1,42 @@
+File	Purpose
+connection.php	Establishes connection to the MySQL database.
+ecommerce_db.sql	SQL script to create and populate the ecommerce_db database.
+index.php	Homepage with jQuery effects and product listing.
+products.php	Displays products dynamically from the database.
+
+
+🛠 Setup Instructions
+Import Database
+
+Open phpMyAdmin (via XAMPP).
+
+Create a new database named ecommerce_db.
+
+Import ecommerce_db.sql.
+
+Configure Connection
+
+Update connection.php with your MySQL credentials:
+
+php
+$conn = mysqli_connect("localhost", "root", "", "ecommerce_db");
+Run the Project
+
+Place the Lab09 folder inside htdocs (XAMPP).
+
+Start Apache and MySQL in XAMPP.
+
+Open in browser:
+
+Code
+http://localhost/Lab09/index.php
+🎯 Learning Outcomes
+By completing this lab, students will:
+
+Understand jQuery effects (hide/show, fade, slide, etc.).
+
+Connect PHP to a MySQL database.
+
+Display products dynamically using SQL queries.
+
+Build a simple interactive e‑commerce demo.
